@@ -1,3 +1,5 @@
+#a multiguild folder is needed, also inside of that multiguild server it is requiered to make a "servers" folder
+
 import json
 import os
 
@@ -90,8 +92,8 @@ async def on_error(event, *args, **kwargs):
 #Premium whitelist system
 @client.event
 async def on_guild_join(guild):
-    required_role_name = "😈Premium Access Pass"
-    bot_server_id = 916708295580995634
+    required_role_name = " "
+    bot_server_id = " "
 
     invites = await guild.invites()
     if invites:
